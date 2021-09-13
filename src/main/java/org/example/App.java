@@ -8,9 +8,9 @@ import java.util.Scanner;
 
 public class App {
     public static void main(String[] args) {
-        Scanner x = new Scanner(System.in);
-        System.out.println("What is the input string?");
+        Scanner x = new Scanner(System.in); //User input
+        System.out.println("What is the input string?"); //Asking question
         String input = x.nextLine();
-        System.out.println(input+" has "+input.length()+" characters");
+        System.out.println(input+" has "+input.length()+" characters"); //Printing
     }
 }
